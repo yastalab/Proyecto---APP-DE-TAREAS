@@ -1,0 +1,131 @@
+body {
+    background-image: url('imagenes/669136b812686964370823fe0ec57366--harry-potter-wallpaper-logo.jpg');
+    background-repeat: no-repeat;
+   background-size: 100%;
+   margin: 0;
+   padding: 0;
+  
+
+}
+
+ body .contain-modal {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.505);
+    top: 0;
+    display: block;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 1.5s ease-in-out;
+}
+body .contain-modal .modal {
+    height: 20rem;
+    width: 10rem;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 15px;
+    border: 1px black solid;
+    position: absolute;
+    top: 25%;
+    left: 42%;
+    box-shadow: 0px 0px 15px 0 white;
+}
+body .show-modal {
+    pointer-events: all;
+    opacity: 1;
+    transition: all 1.5s ease-in-out;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+header {
+    position: fixed;
+    background-color:#207178;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    width: 100vw;
+    color: #F5E9BE;
+}
+
+main {
+    padding-top: 7rem;
+}
+
+.contain-status {
+    padding: 10px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+}
+
+.contain-status button{
+   background-color:  #F5E9BE;
+   color: #207178;
+   border: none;
+   border-radius: 10px;
+   width: 12rem;
+   box-shadow: 0px 0px 24px 6px rgba(23,76,79,0.86);
+-webkit-box-shadow: 0px 0px 24px 6px rgba(23,76,79,0.86);
+-moz-box-shadow: 0px 0px 24px 6px rgba(23,76,79,0.86);
+}
+
+#button-create{
+    display: block;
+    margin: 20px auto;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 2px 15rem;
+   background-color: #F5E9BE;
+   color: #207178;
+   border: none;
+   border-radius: 10px;
+   box-shadow: 0px 0px 24px 6px rgba(23,76,79,0.86);
+-webkit-box-shadow: 0px 0px 24px 6px rgba(23,76,79,0.86);
+-moz-box-shadow: 0px 0px 24px 6px rgba(23,76,79,0.86);
+}
+
+.contain-tareas {
+    display: flex;
+    flex-direction: column;
+}
+
+.contain-tareas .tarea{ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+    color: #F5E9BE;
+    border-bottom: 1px #207178;
+}
+
+.contain-tareas .tarea div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 20rem;
+    text-shadow: 0px 0 10px #207178;
+}
+
+.contain-tareas .tarea .buttons-tarea{
+    font-size: 20px;
+}
+
+.contain-tareas .tarea .buttons-tarea button{
+    background-color: #207178;
+    color: #F5E9BE;
+    width: 8rem;
+}
