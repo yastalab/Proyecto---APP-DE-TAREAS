@@ -20,7 +20,8 @@ body {
     opacity: 0;
     pointer-events: none;
     transition: all 1.5s ease-in-out;
-}
+    }
+
 .contain-modal .modal {
     height: 20rem;
     width: 10rem;
@@ -33,6 +34,7 @@ body {
     left: 42%;
     box-shadow: 0px 0px 15px 0 white;
 }
+   
 .show-modal {
     pointer-events: all;
     opacity: 1;
@@ -40,9 +42,12 @@ body {
 } 
 
 #open-modal{
+    border: 2px #F5E9BE solid;
     border-radius: 15px;
-    color: #207178;
-    font-size: 15px;
+    color: #F5E9BE;
+    font-size: 25px;
+    background-color:#207178;
+    ;
    
 }
 
