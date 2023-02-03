@@ -8,7 +8,9 @@ body {
 
 }
 
- body .contain-modal {
+/* ------- MODAL ------- */
+
+.contain-modal {
     height: 100vh;
     width: 100vw;
     position: fixed;
@@ -19,7 +21,7 @@ body {
     pointer-events: none;
     transition: all 1.5s ease-in-out;
 }
-body .contain-modal .modal {
+.contain-modal .modal {
     height: 20rem;
     width: 10rem;
     background-color: white;
@@ -31,21 +33,22 @@ body .contain-modal .modal {
     left: 42%;
     box-shadow: 0px 0px 15px 0 white;
 }
-body .show-modal {
+.show-modal {
     pointer-events: all;
     opacity: 1;
     transition: all 1.5s ease-in-out;
 } 
 
+#open-modal{
+    border-radius: 15px;
+    color: #207178;
+    font-size: 15px;
+   
+}
 
 
 
-
-
-
-
-
-
+/*------- ------- ------- ------- -------*/
 
 
 header {
